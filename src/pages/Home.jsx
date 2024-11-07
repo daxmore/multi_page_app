@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import HomeHero from '../components/HomeHero'
 
 const Home = () => {
     return (
         <>
             <Navbar />
-            <p className="text-4xl">I'm Home</p>
+            <HomeHero />
         </>
     )
 }
 
 export default Home
+
